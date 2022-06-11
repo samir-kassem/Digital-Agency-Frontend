@@ -1,0 +1,45 @@
+   <!--    Preloader-->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+
+
+    <!--    Home Section-->
+    <section id="home">
+        <video id="home-bg-video" muted autoplay loop>
+            <source src="solo_video/solo.mp4" type="video/mp4">
+            <source src="solo_video/solo.webm" type="video/webm">
+            <source src="solo_video/solo.ogv" type="video/ogg">
+            <p>Your browser cannot play the provided video file.</p>
+        </video>
+
+        <div id="home-overlay"></div>
+
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Digital</h1>
+                    <br>
+                    <h1 id="home-heading-2">Creative
+                        <span>
+                            Agency
+                        </span>
+                    </h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos labore, optio voluptatum qui! </p>
+                </div>
+                <div id="home-btn">
+                    <a href="#about" title="Start Now" class="btn btn-general btn-home" role="button">Start Now</a>
+                </div>
+
+            </div>
+        </div>
+
+        <a id="arrow-down" href="#about">
+            <i class="fa-solid fa-angle-down"></i>
+        </a>
+
+    </section>
